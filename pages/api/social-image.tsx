@@ -51,7 +51,6 @@ export default async function OGImage(
           backgroundColor: '#1F2027',
           alignItems: 'center',
           justifyContent: 'center',
-          fontFamily: '"Inter", sans-serif',
           color: 'black'
         }}
       >
@@ -157,12 +156,6 @@ export default async function OGImage(
       width: 1200,
       height: 630,
       fonts: [
-        {
-          name: 'Inter',
-          data: interSemiBoldFont,
-          style: 'normal',
-          weight: 400
-        },
         {
           name: 'Inter',
           data: interSemiBoldFont,
