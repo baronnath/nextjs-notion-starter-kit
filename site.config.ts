@@ -64,11 +64,11 @@ export default siteConfig({
     },      
     {
       title: 'Campañas',
-      pageId: 'f1520856273f4f6b9004ceeea144c69c'
+      pageId: '131f70952caa80d39c57daf8d1e62d62'
     },
     {
       title: 'Personajes',
-      pageId: 'd3646eadfa394a568e65b116146c80a8'
+      pageId: '134f70952caa807381fae00126ddbd8b'
     },
     {
       title: 'Monstruos',
@@ -76,7 +76,7 @@ export default siteConfig({
     },
     {
       title: 'Habilidades',
-      pageId: '8e7bf1f12333432089c9ca6b7435a2d5'
+      pageId: '16ff70952caa8064aef0d9282d58e168'
     },
     {
       title: 'Objetos',
