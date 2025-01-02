@@ -2,7 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '16ff70952caa8084abe6c83880f6f7f2',
+  rootNotionPageId: '12ff70952caa80b59edec6b3595943f4',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'nathanlosabe',
 
   // open graph metadata (optional)
-  description: 'Thēria RPG Game',
+  description: 'Thēria. Juego de rol',
 
   // social usernames (optional)
   // instagram: 'theria.rpg',
@@ -44,12 +44,12 @@ export default siteConfig({
   // example:
   //
   pageUrlOverrides: {
-    // EN
-    '/home': '16ff70952caa8084abe6c83880f6f7f2',
-    '/rules': '134f70952caa80a6acb8fd44dd1dfd8c',
-    '/characters': '36b0ec5db9fc46b089be845fa580caba',
-    '/campaigns': '2dea324af9f84ccab25ff13f4f543935',
-    '/abilities': '16ff70952caa8099b5c9fb70821fcd6e',
+    // ES
+    '/inicio': '12ff70952caa80b59edec6b3595943f4',
+    '/reglas': 'fdba6295c2444e7dabdc6e10d925e3f1',
+    '/personajes': '134f70952caa807381fae00126ddbd8b',
+    '/campanas': '131f70952caa80d39c57daf8d1e62d62',
+    '/habilidades': '16ff70952caa8064aef0d9282d58e168'
   },
   // pageUrlOverrides: null,
 
@@ -59,28 +59,28 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: 'Rules',
-      pageId: '134f70952caa80a6acb8fd44dd1dfd8c'
+      title: 'Reglas',
+      pageId: 'fdba6295c2444e7dabdc6e10d925e3f1'
+    },      
+    {
+      title: 'Campañas',
+      pageId: 'f1520856273f4f6b9004ceeea144c69c'
     },
     {
-      title: 'Characters',
+      title: 'Personajes',
       pageId: 'd3646eadfa394a568e65b116146c80a8'
-    },     
-    {
-      title: 'Campaigns',
-      pageId: '2dea324af9f84ccab25ff13f4f543935'
     },
     {
-      title: 'Abilities',
-      pageId: '16ff70952caa8099b5c9fb70821fcd6e'
-    },
-    {
-      title: 'Items',
-      pageId: '836b85b669734c2b9dca62515eea7f68'
-    },
-    {
-      title: 'Monsters',
+      title: 'Monstruos',
       pageId: 'fc7ed021048949db868448a44ccf26d8'
+    },
+    {
+      title: 'Habilidades',
+      pageId: '8e7bf1f12333432089c9ca6b7435a2d5'
+    },
+    {
+      title: 'Objetos',
+      pageId: '836b85b669734c2b9dca62515eea7f68'
     }
   ]
 })
